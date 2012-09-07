@@ -6,6 +6,13 @@ function UsePEP8()
   match ExtraWhiteSpace /\s\+$/
 endfunction
 
+function UseVimnote()
+  AcpDisable
+  setlocal nolbr
+  setlocal tw=0
+  setlocal syntax=notes
+endfunction
+
 let t_Co=256
 set t_Co=256
 syntax on
@@ -32,3 +39,9 @@ colorscheme molokai
 
 "js syntax highlighting for JSON files
 autocmd Filetype json set syntax=javascript
+
+"for vim-notes
+let g:notes_directory = getcwd()
+let g:notes_suffix = '.vimnote'
+autocmd BufEnter,Bufnew *.vimnote call UseVimnote()
+let g:notes_title_sync = 'no'
