@@ -1,9 +1,6 @@
 function UsePEP8()
   setlocal tabstop=4
   setlocal shiftwidth=4
-  setlocal formatoptions=t,c
-  highlight ExtraWhiteSpace ctermbg=red guibg=red
-  match ExtraWhiteSpace /\s\+$/
 endfunction
 
 function UseVimnote()
@@ -23,8 +20,10 @@ set expandtab
 set number
 set tw=79
 let g:syntastic_phpcs_disable=1
-set formatoptions=l
+set formatoptions=l,t,c
 set lbr
+highlight ExtraWhiteSpace ctermbg=red guibg=red
+match ExtraWhiteSpace /\s\+$/
 
 autocmd Filetype python call UsePEP8()
 autocmd Filetype make setlocal noexpandtab

@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/traviskaufman/Documents/Code/Javascript/sourcetone_music_player_widget/tasks'
-let g:netrw_dirhist_2='/Users/traviskaufman/Documents/Code/Javascript/sourcetone_music_player_widget/tests'
-let g:netrw_dirhist_3='/Users/traviskaufman/Documents/Code/Javascript/jazzy/spec'
-let g:netrw_dirhist_4='/Users/traviskaufman/Documents/Code/Javascript/sourcetone_music_player_widget/tests/spec_phantom'
-let g:netrw_dirhist_5='/Users/traviskaufman/Documents/Code/Python/YATI/build'
-let g:netrw_dirhist_6='/Users/traviskaufman/Documents/Code/Javascript/sourcetone_music_player_widget'
-let g:netrw_dirhist_7='/Users/traviskaufman/Documents/School/Notes for class/Performing Arts in Western Civilization'
-let g:netrw_dirhist_8='/Users/traviskaufman/Documents/Code/Python'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/traviskaufman/Documents/Code/Python/personal_site/personal_site'
